@@ -6,22 +6,26 @@
 
   The Identicons generated are used as Github default avatar. Here are some examples :
 
-  ![alt text](http://identicons_examples/star.png)
+
+  ![alt text](https://github.com/EmilieChen/identicon/tree/main/identicons_examples/star.png)
+  \newline
   iex> Identicon.main ("star")
 
-  ![alt text](http://identicons_examples/wood.png)
+  ![alt text](https://github.com/EmilieChen/identicon/tree/main/identicons_examples/wood.png)
+  \newline
   iex> Identicon.main ("wood")
 
-  ![alt text](http://identicons_examples/moon.png)
+  ![alt text](https://github.com/EmilieChen/identicon/tree/main/identicons_examples/moon.png)
+  \newline
   iex> Identicon.main ("moon")
 
-  ![alt text](http://identicons_examples/sun.png)
+  ![alt text](https://github.com/EmilieChen/identicon/tree/main/identicons_examples/sun.png)
   iex> Identicon.main ("sun")
 
-  ![alt text](http://identicons_examples/river.png)
+  ![alt text](https://github.com/EmilieChen/identicon/tree/main/identicons_examples/river.png)
   iex> Identicon.main ("river")
 
-  ![alt text](http://identicons_examples/banana.png)
+  ![alt text](https://github.com/EmilieChen/identicon/tree/main/identicons_examples/banana.png)
   iex> Identicon.main ("banana")
 
   Our Identicons are 5×5 sprites of 50 pixels. They are generated using a hash of the input string as the seed. The algorithm walks through the hash and colors sprites depending on even or odd values of the hash. The colors is determined by the first three values of the hash. The algorithm ensures a huge number of unique 250 x 250 resolutions identicons.
